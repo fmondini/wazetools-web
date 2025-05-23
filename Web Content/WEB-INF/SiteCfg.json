@@ -1,0 +1,36 @@
+{
+	"Globals": {
+		"cookie": false
+	},
+	"TopAppBar": {
+		"enabled": true,
+		"drawer": [
+			{ "only_if_logged": false, "text": "Condizioni d'uso", "icon": "copyright",    "link": "https://danisoft.software/home/copyright.jsp", "colr": "#007dc1", "dest": "_blank" },
+			{ "only_if_logged": false, "text": "About...",         "icon": "info_outline", "link": "../home/about.jsp",                            "colr": "",        "dest": ""       }
+		]
+	},
+	"Header" : {
+		"enabled": true,
+		"space_up_class": "DS-padding-top-16px",
+		"space_dn_class": "DS-padding-bottom-0px",
+		"drop_shadow": false,
+		"show_separator": false
+	},
+	"Footer": {
+		"enabled": true,
+		"space_up_class": "DS-padding-top-8px",
+		"space_dn_class": "DS-padding-bottom-8px"
+	},
+	"About": {
+		"COMMENT": "+++ Leave ethernet empty to disable graphs +++",
+		"ethernet": "eth0",
+		"srv_ping": "ovh-gra2-02.danisoft.net",
+		"srv_traf": "waze.tools",
+		"srv_temp": "ovh-gra2-02.danisoft.net",
+		"proprietary_license": false
+	},
+	"GoogleAnalytics": {
+		"COMMENT": "+++ Leave empty to disable analytics +++",
+		"id": "G-T3NFS0JXEH"
+	}
+}
